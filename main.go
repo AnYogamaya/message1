@@ -38,7 +38,7 @@ func publishThatScales() error {
 	var totalErrors uint64
 	t := client.Topic(topicID)
 	n := 1
-	data.Firstname = "maya"
+	data.Firstname = "yogamaya"
 	data.Lastname = "mishra"
 	empdata, err := json.Marshal(data)
 	if err != nil {
